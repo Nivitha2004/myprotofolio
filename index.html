@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title>Responsive Portfolio Website | Code4education</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+    <section class="about section-hidden" id="about-me">
+        <!-- Your about section content -->
+      </section>      
+
+  <!-- Move to up bottom -->
+  <div class="scroll-button">
+    <a href="#home"><i class="fas fa-arrow-up"></i></a>
+  </div>
+  
+  <!-- navigation menu -->
+  <nav>
+    <div class="navbar">
+      <div class="logo"><a href="#">Portfolio.</a></div>
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about" id="about-nav">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#portfolio">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <div class="cancel-btn">
+          <i class="fas fa-times"></i>
+        </div>
+      </ul>
+      <div class="media-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+
+  <section class="home" id="home">
+    <div class="home-content">
+        <div class="left">
+            <img decoding="async" src="C:\Users\nivit\OneDrive\Pictures\professional\nivi1.jpg" alt="Portfolio">
+        </div>
+        <div class="right">
+            <div class="text">
+                <div class="text-one">Hello,</div>
+                <div class="text-two">I'm Nivitha</div>
+                <div class="text-three">UI/UX DESIGNER</div>
+            </div>
+            <div class="button">
+                <button class="btn hire-me-btn">Hire Me</button>
+                <button class="btn download-cv-btn">Download CV</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+  <!-- About Section Start -->
+  <section class="about" id="about">
+    <div class="content">
+      <div class="title"><span>About Me</span></div>
+      <div class="about-details">
+        <div class="left">
+          <img decoding="async" src="C:\Users\nivit\OneDrive\Pictures\professional\nivi1.jpg" alt="Portfolio">
+        </div>
+        <div class="right">
+          <div class="topic">Designing Is My Passion</div>
+          <p>I‘m Nivitha, an enthusiastic UX/UI Designer and a front-end web developer, currently pursuing Bachelor Of Technology , conceptualizing and crafting digital products, understanding users needs and pain points, develop the designs to help businesses and non-profits expand their capacity for impact </p>
+          <div class="button">
+            <button>Download CV</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+<section class="skills" id="skills">
+  <div class="content">
+      <div class="title"><span>My Skills</span></div>
+      <div class="skills-details">
+          <div class="boxes">
+              <div class="box">
+                  <div class="topic">HTML</div>
+                  <div class="per"><span class="num" data-num="90">0%</span></div>
+              </div>
+              <div class="box">
+                  <div class="topic">CSS</div>
+                  <div class="per"><span class="num" data-num="80">0%</span></div>
+              </div>
+              <div class="box">
+                  <div class="topic">JavaScript</div>
+                  <div class="per"><span class="num" data-num="70">0%</span></div>
+              </div>
+              <div class="box">
+                  <div class="topic">Bootstrap</div>
+                  <div class="per"><span class="num" data-num="100">0%</span></div>
+              </div>
+              <div class="box">
+                  <div class="topic">React</div>
+                  <div class="per"><span class="num" data-num="85">0%</span></div>
+              </div>
+              <div class="box">
+                  <div class="topic">Node.js</div>
+                  <div class="per"><span class="num" data-num="75">0%</span></div>
+              </div>
+              <div class="box">
+                  <div class="topic">Figma</div>
+                  <div class="per"><span class="num" data-num="90">0%</span></div>
+              </div>
+              <div class="box">
+                  <div class="topic">Photoshop</div>
+                  <div class="per"><span class="num" data-num="80">0%</span></div>
+              </div>
+              <!-- Add more skill boxes as needed -->
+          </div>
+      </div>
+  </div>
+</section>
+
+
+<section class="portfolio" id="portfolio">
+  <div class="content">
+    <div class="title"><span>My Portfolio</span></div>
+    <div class="boxes">
+      <div class="box" id="web-development">
+        <a href="javascript:void(0)">
+          <div class="icon">
+            <i class="fas fa-desktop"></i>
+          </div>
+          <div class="topic">Web Development</div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
+        </a>
+      </div>
+      <div class="box" id="dinosaur-game">
+        <a href="javascript:void(0)">
+          <div class="icon">
+            <i class="fas fa-gamepad"></i>
+          </div>
+          <div class="topic">Dinosaur Game</div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
+        </a>
+      </div>
+      <div class="box" id="to-do-list">
+        <a href="javascript:void(0)">
+          <div class="icon">
+            <i class="fas fa-tasks"></i>
+          </div>
+          <div class="topic">To-Do List</div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Modal Structure -->
+<div id="projectModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <img id="projectScreenshot" src="" alt="Project Screenshot" style="width:100%; margin-bottom: 20px;">
+    <h2 id="modalTitle">Project Title</h2>
+    <p id="modalDescription">Project Description</p>
+    <p id="modalDuration"><strong>Project Duration:</strong></p>
+    <p id="modalTechnologies"><strong>Technologies Used:</strong></p>
+    <p id="modalRole"><strong>Role:</strong></p>
+    <a id="modalLink" href="#" target="_blank">View Online</a>
+  </div>
+</div>
+
+
+
+
+
+<section class="contact" id="contact">
+  <div class="content">
+      <div class="title"><span>Contact Me</span></div>
+      <div class="text">
+          <div class="topic">Get in Touch</div>
+          <div class="contact-info">
+              <p>Email:</p>
+              <p><a href="mailto:nivitha203@gmail.com">nivitha203@gmail.com</a></p>
+              <p>Phone:</p>
+              <p><a href="tel:+9345843583">9345843583</a></p>
+              <p>Follow me on social media:</p>
+              <ul class="social-media">
+                  <li><a href="https://www.facebook.com/yourprofile" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                  <li><a href="https://www.instagram.com/yourprofile" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                  <li><a href="https://www.github.com/yourprofile" target="_blank"><i class="fab fa-github"></i></a></li>
+                  <li><a href="https://www.behance.net/yourprofile" target="_blank"><i class="fab fa-behance"></i></a></li>
+                  <li><a href="https://www.dribbble.com/yourprofile" target="_blank"><i class="fab fa-dribbble"></i></a></li>
+              </ul>
+          </div>
+          <div class="button">
+              <button id="chatBtn">Let's Chat</button>
+          </div>
+      </div>
+  </div>
+</section>
+
+<!-- Footer Section Start -->
+<footer>
+  <div class="text">
+      <span>Created By <a href="#">Code4education</a> | © 2021 All Rights Reserved.</span>
+  </div>
+</footer>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
+
